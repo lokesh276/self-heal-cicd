@@ -1,4 +1,7 @@
-From python:3.9
-WORKDIR/ app
+FROM python:3.9
+
+WORKDIR /app
+
 COPY . .
-CMD ["python" , "app.py"]
+
+CMD ["python", "app.py"]
